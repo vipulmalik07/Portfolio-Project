@@ -9,23 +9,22 @@ const Skills = () => {
                 <SkillList src={checkMark} p={"HTML"} />
                 <SkillList src={checkMark} p={"CSS"} />
                 <SkillList src={checkMark} p={"JavaScript"} />
-                <SkillList src={checkMark} p={"TypeScript"} />
-                <SkillList src={checkMark} p={"Node"} />
+                <SkillList src={checkMark} p={"Python"} />
+                <SkillList src={checkMark} p={"SQl"} />
             </div>
             <hr />
             <div className='skillList'>
-                <SkillList src={checkMark} p={"React"} />
-                <SkillList src={checkMark} p={"Angular"} />
-                <SkillList src={checkMark} p={"Vue"} />
+                <SkillList src={checkMark} p={"Reactjs"} />
+                <SkillList src={checkMark} p={"Bootstrap"} />
+                <SkillList src={checkMark} p={"Material Ui"} />
                 <SkillList src={checkMark} p={"TailWind CSS"} />
             </div>
             <hr />
             <div className='skillList'>
-                <SkillList src={checkMark} p={"Redux"} />
-                <SkillList src={checkMark} p={"Webpack"} />
                 <SkillList src={checkMark} p={"Git"} />
-                <SkillList src={checkMark} p={"Jest"} />
-                <SkillList src={checkMark} p={"Bootstrap"} />
+                <SkillList src={checkMark} p={"Vite"} />
+                <SkillList src={checkMark} p={"Firebase"} />
+                <SkillList src={checkMark} p={"Framer Motion"} />
             </div>
         </section>
     )

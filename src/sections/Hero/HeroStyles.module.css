@@ -6,9 +6,11 @@
   text-align: center;
   height: 100dvh;
   min-height: 500px;
+  
 
   .hero {
     max-width: 200px;
+    
   }
 
   span {
@@ -82,6 +84,7 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: -180px;
 
     .hero {
       max-width: 350px;
