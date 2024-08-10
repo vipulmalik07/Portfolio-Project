@@ -7,7 +7,7 @@ import profile from '../../assets/profile.png'
 
 const Projects = () => {
   return (
-    <section id='projects' className='container'>
+    <section id='projects' className='project-container'>
       <h1 className='sectionTitle'>Projects</h1>
       <div className='projectContainer'>
         <ProjectCard src={weather} link={"https://github.com/vipulmalik07/React-Projects"} h3={"WeatherApp"} p={"Weather App"} />

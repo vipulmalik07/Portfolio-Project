@@ -1,4 +1,4 @@
-import styles from './HeroStyles.module.css';
+import './Hero.css'
 import heroImg from '../../assets/young-man.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
@@ -20,21 +20,21 @@ function Hero() {
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
   return (
-    <section id="hero" className={styles.container}>
-      <div className={styles.colorModeContainer}>
+    <section id="hero" className="hero-container">
+      <div className="colorModeContainer">
         <img
           src={heroImg}
-          className={styles.hero}
+          className="hero"
           alt="Profile picture of Vipul Malik"
         />
         <img
-          className={styles.colorMode}
+          className="colorMode"
           src={themeIcon}
           alt="Color mode icon"
           onClick={toggleTheme}
         />
       </div>
-      <div className={styles.info}>
+      <div className="info">
         <h1>
           Vipul
           <br />
@@ -49,7 +49,7 @@ function Hero() {
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p className={styles.description}>
+        <p className="description">
           With a passion for developing modern React web apps 
         </p>
         <a href={CV} download>
