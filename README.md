@@ -1,8 +1,7 @@
 
 
-# 🎨 My Project Showcase Website
-
-Welcome to my project showcase website! 🚀 This modern and responsive site is built with React.js and Material UI, offering a sleek interface to display all my projects. 🌟
+# 🎨 My Portfolio 
+Welcome to my project showcase website aka Portfolio website ! 🚀 This modern and responsive site is built with React.js and Material UI, offering a sleek interface to display all my projects. 🌟
 
 ## 🌐 Live Demo
 
